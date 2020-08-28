@@ -1,24 +1,24 @@
-# mesa-brasil
+# Starter Kit SESC DN
 
-## Project setup
+## Iniciar projeto com install para instalar todas as dependências
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Compilar o código
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Compilar e minificar os arquivos para dar Build
 ```
 yarn build
 ```
 
-### Lints and fixes files
+### Lints e corrigir código
 ```
 yarn lint
 ```
 
-### Customize configuration
+### Referências do Vue
 See [Configuration Reference](https://cli.vuejs.org/config/).
