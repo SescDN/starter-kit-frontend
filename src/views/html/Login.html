@@ -1,0 +1,45 @@
+<div>
+    <v-app :style="{ backgroundImage: 'url(' + image + ')' }">
+      <v-container>
+        <v-content>
+          <div class="div-centralizado pa-5">
+            <v-row no-gutters class="elevation-20" style="min-height: 370px">
+              <v-col class="pa-5 blue darken-4 flex-child">
+                <div class="ma-5 text-center pt-5">
+                  <v-img class="ma-5" src="./../../assets/logo.png" width="250" />
+                </div>
+              </v-col>
+
+              <v-col class="pa-5 flex-child" style="background-color: #FFF;">
+                <v-card-text>
+                  <v-form>
+                    <v-text-field
+                      class="mt-5"
+                      label="Login"
+                      name="login"
+                      prepend-icon="mdi-account"
+                      type="text"
+                    />
+
+                    <v-text-field
+                      class="mt-5"
+                      id="password"
+                      label="Senha"
+                      name="password"
+                      prepend-icon="mdi-lock"
+                    />
+                  </v-form>
+                </v-card-text>
+
+                <v-card-actions class="pa-5">
+                  <v-btn large class="blue darken-4 white--text text-initial">Login</v-btn>
+                  <v-spacer></v-spacer>
+                  <span class="grey--text">Esqueci minha senha</span>
+                </v-card-actions>
+              </v-col>
+            </v-row>
+          </div>
+        </v-content>
+      </v-container>
+    </v-app>
+  </div>

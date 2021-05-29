@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router';
 import vuetify from './plugins/vuetify';
+import "reflect-metadata";
 
 import Login from './views/Login.vue'
 import NavBarVertical from './views/NavBarVertical.vue'
@@ -11,10 +12,12 @@ import Tabela from './views/Tabela.vue'
 import TabelaCompleta from './views/TabelaCompleta.vue'
 import Dialogos from './views/Dialogos.vue'
 import Cadastro from './views/Cadastro.vue'
-
+import Alunos from './views/Alunos.vue'
+ 
 Vue.config.productionTip = false
 
 Vue.use(VueRouter);
+
 
 const router = new VueRouter({
   mode: 'history',
@@ -36,7 +39,7 @@ const router = new VueRouter({
     component: TabsVerticais,
   },
   {
-    path: '/dialogo',
+    path: '/dialogos',
     component: Dialogos,
   },
   {
@@ -55,6 +58,10 @@ const router = new VueRouter({
     path: '/navbarvertical',
     component: NavBarVertical,
   },
+  {
+    path: '/alunos',
+    component: Alunos,
+  }
 ],
 });
 

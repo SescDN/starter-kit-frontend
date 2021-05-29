@@ -1,0 +1,51 @@
+.bg {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+  }
+  
+  .div-centralizado {
+    /* flex container */
+    width: 70%;
+    margin: 20% auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    vertical-align: middle;
+  }
+  
+  .flex-child {
+    flex: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .center-img {
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .bg-img {
+    background-color: #f2f2f2;
+  }
+  
+  .pm-10 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .text-initial {
+    text-transform: initial;
+    font-size: 16px;
+  }

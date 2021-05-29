@@ -1,0 +1,18 @@
+<div>
+    <v-container>
+      <v-content>
+        <h1 class="text-center pa-5 ma-5">Tabelas</h1>
+        <NavBar />
+        <!-- Barra lateral, que contém os itens do menu -->
+        <NavBarMini :logourl="logourl" :menuitems="menuitems" />
+
+        <data-table
+          :headers="headers"
+          :items="items"
+          :filters="filters"
+          :search="true"
+          :actions="actions"
+        />
+      </v-content>
+    </v-container>
+  </div>
